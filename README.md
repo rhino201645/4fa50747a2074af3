@@ -1,6 +1,6 @@
 https://cdn.jsdelivr.net/gh/rhino201645/4fa50747a2074af3@main/install.sh \
 
-# QUICK START \
+# QUICK START 
 
 ```
 apk update
