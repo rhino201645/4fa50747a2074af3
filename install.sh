@@ -32,8 +32,6 @@ ip rule add fwmark 1 table 100 2>/dev/null
 ip route add local default dev lo table 100 2>/dev/null
 fw4 reload
 
-wget -O /usr/bin/geoip.dat https://cdn.jsdelivr.net/gh/rhino201645/0d60353968493be0@main/geoip.dat
-
 printf "configure your inbound? ( y / n ): "
 read CONF_ANS
 
